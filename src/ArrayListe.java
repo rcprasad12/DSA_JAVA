@@ -11,6 +11,8 @@ public class ArrayListe {
         list.add(65);
         list.add(888);
 
+        list.remove(3);
+
         System.out.println(list);
 
 
