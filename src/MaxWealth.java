@@ -4,19 +4,19 @@ public class MaxWealth {
 
     }
     public int maximumWealth(int[][] accounts){
-        int ans = Integer.MIN_VALUE;
+        int answer = Integer.MIN_VALUE;
         for(int person = 0 ; person < accounts.length;person++){
             int sum = 0;
             for(int account = 0 ; account < accounts[person].length; account++){
                 sum += accounts[person][account];
 
-                if(sum >ans){
-                    ans =sum;
+                if(sum >answer){
+                    answer =sum;
                 }
 
             }
             return sum ;
         }
-        return ans;
+        return answer;
     }
 }
