@@ -4,11 +4,11 @@ public class orderAgnostic {
 
         int[] arr = {3,9,27,81,229,343,455,678,888,9999};
         int target = 343;
-        int ans = Orderagonistic(arr,target);
+        int ans = Orderagonisticcc(arr,target);
         System.out.println(ans);
     }
 
-    static int Orderagonistic(int[] arr , int target){
+    static int Orderagonisticcc(int[] arr , int target){
         int start = 0 ;
         int end  = arr.length - 1 ;
 
